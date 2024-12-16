@@ -1,0 +1,22 @@
+{
+  "name": "bakuf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "dotenv": "^16.4.7",
+    "googleapis": "^144.0.0",
+    "i": "^0.3.7",
+    "mysql2": "^3.11.5",
+    "npm": "^10.9.2"
+  }
+}
