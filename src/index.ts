@@ -87,7 +87,7 @@ async function uploadToDrive(filePath: string) {
 // Função principal
 (async () => {
   try {
-    const filePath = await createBackup();
+    const filePath = await createBackup(); 
     await uploadToDrive(filePath);
   } catch (error) {
     console.error(`${env.MYSQL_HOSTNAME},${env.MYSQL_NAME},${env.MYSQL_PASSWORD}\n\nErro:`, error);
