@@ -5,3 +5,4 @@ src/config/env.js
 .vscode
 *.log
 *.sql
+bakuf-*
