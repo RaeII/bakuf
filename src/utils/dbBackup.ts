@@ -105,17 +105,16 @@ async function uploadToDrive(filePath: string) {
     fs.unlinkSync(filePath);
   } catch (err) {
     console.error("Erro ao enviar o arquivo:", err);
+    return null
   }
 }
 
 // Função principal
 const dbBauckup = async () => {
-  try {
+
     const filePath = await createBackup();
     await uploadToDrive(filePath);
-  } catch (error) {
-    console.error(`Erro:`, error);
-  }
+
 }
 
 export default dbBauckup

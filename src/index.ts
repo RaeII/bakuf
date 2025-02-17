@@ -7,6 +7,7 @@ import folderBackup from "./utils/folderBackup";
     await folderBackup()
   } catch (err) {
     console.error("Erro durante o upload:", err);
+    process.exit()
   }
 })();
 

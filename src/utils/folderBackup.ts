@@ -75,6 +75,7 @@ async function uploadFileToDrive(filePath: string, fileName: string, parentId: s
     });
   } catch (err) {
     console.error("Erro ao enviar arquivo:", err);
+    return null
   }
 }
 
@@ -104,6 +105,7 @@ const folderBackup = async () => {
     console.log("Upload concluído com sucesso!",new Date,'\n --- \n');
   } catch (err) {
     console.error("Erro durante o upload:", err);
+    return null
   }
 };
 
