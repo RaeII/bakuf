@@ -12,7 +12,10 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
+    "@types/archiver": "^6.0.3",
     "@types/fs-extra": "^11.0.4",
+    "archiver": "^7.0.1",
+    "crypto": "^1.0.1",
     "dotenv": "^16.4.7",
     "googleapis": "^144.0.0",
     "i": "^0.3.7",
